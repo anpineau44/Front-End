@@ -1,0 +1,20 @@
+<div class="col-md-12 vh-100 d-flex align-items-center justify-content-center" style="background-color: #2A3439;">
+    <div class="card card-container text-center custom-card">
+        <img id="profile-img" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" class="profile-img-card mx-auto" />
+        <div class="py-3">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" name="email" #email required />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" #password required />
+        </div>
+        <div class="py-3">
+            <button type="button" (click)="login(email.value, password.value)" class="btn btn-custom btn-block">
+                Login
+            </button>
+        </div>
+    </div>
+    <img src="https://www.solamena.com/wp-content/uploads/2022/01/Solamena-Voiles-d-ombrage-Logo-2.png"
+        alt="Logo Solamena" class="logo">
+</div>
