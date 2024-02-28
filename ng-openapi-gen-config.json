@@ -1,0 +1,7 @@
+{
+    "$schema": "node_modules/ng-openapi-gen/ng-openapi-gen-schema.json",
+    "input": "src/resources/swagger.json",
+    "output": "src/app/services/back",
+    "servicePrefix": "Back",
+    "ignoreUnusedModels": false
+}
